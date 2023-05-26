@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { useMediaQuery } from 'react-responsive'
 
-import NavBarMov from "../components/NavBarMov";
-import NavBarHome from "../components/Navbar_Home";
 
 
 
@@ -24,11 +22,9 @@ const HomePageComponent_Mob = styled.div`
         <HomePageComponent>
             {isDesktopOrMobile !== true ?
                 <div>
-                     <NavBarHome/>
                 </div>
                 :
                 <HomePageComponent_Mob>
-                    <NavBarMov/>
 
                 </HomePageComponent_Mob>
             }
