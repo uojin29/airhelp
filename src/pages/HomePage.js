@@ -53,7 +53,7 @@ function HomePage() {
                         <p>AirportHelp Center Int'l is a new transportation company, specializing 'door to door' service, particularly for the passengers arriving/departing at Incheon Int'l Airport.</p>
                             <Button variant="outlined" onClick={navigateToPurchase} style={{ margin: '2px' }}>출발 예약하기</Button>
                             <Button variant="outlined" onClick={navigateToPurchase} style={{ margin: '2px' }}>도착 예약하기</Button>
-                            <Button variant="outlined" style={{ margin: '2px' }}>예약 확인하기</Button>
+                            <Button variant="outlined"  style={{ margin: '2px' }}>예약 확인하기</Button>
               
                     </ContentContainer>
                 </div>
