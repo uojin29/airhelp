@@ -36,7 +36,6 @@ const BookingForm = () => {
     const [formData, setFormData] = useState({
         reservationPhoneNumber: '',
         reservationName: '',
-
         representativeName: '',
         passengerCount: 0,
         departureLocation: '',
@@ -81,7 +80,7 @@ const BookingForm = () => {
             <Label>
                 Reservation Phone Number:
                 <Input
-                    type="number"
+                    type="text"
                     name="reservationPhoneNumber"
                     value={formData.reservationPhoneNumber}
                     onChange={handleChange}
@@ -116,7 +115,7 @@ const BookingForm = () => {
             <Label>
                 Passenger Phone Number:
                 <Input
-                    type="number"
+                    type="text"
                     name="passengerPhoneNumber"
                     value={formData.passengerPhoneNumber}
                     onChange={handleChange}
